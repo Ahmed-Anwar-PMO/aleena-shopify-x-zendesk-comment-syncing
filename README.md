@@ -45,22 +45,18 @@ Set the following environment variables before using the script:
 Variable Description
 ZENDESK_SUBDO
 MAIN
-Your Zendesk subdomain (example:
-aleena)
+Your Zendesk subdomain (example: aleena)
 ZENDESK_EMAIL Agent/system^ email^ used^ for^ Zendesk^ API^
-ZENDESK_API_T
-OKEN
+ZENDESK_API_TOKEN
 Zendesk API token
 ```
 ### Shopify
 
 ```
 Variable Description
-SHOPIFY_STORE Shopify^ store^ name^ (without^
-.myshopify.com)
+SHOPIFY_STORE Shopify^ store^ name^ (without.myshopify.com)
 SHOPIFY_ADMIN_TOKEN Admin^ API^ access^ token^
-SHOPIFY_API_VERSION
-(optional)
+SHOPIFY_API_VERSION (optional)
 Defaults to 2024-
 ```
 Example:
